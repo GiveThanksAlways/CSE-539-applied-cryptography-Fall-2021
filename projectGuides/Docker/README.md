@@ -1,4 +1,7 @@
 # Docker
+The goal is to have you copy your code from `Program.cs` into a Docker container that has the same enviroment that the autograder has.
+
+## install docker
 
 * [Install Docker](https://docs.docker.com/get-docker/)
 * [Docker .NET images](https://hub.docker.com/_/microsoft-dotnet-sdk/)
