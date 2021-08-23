@@ -1,12 +1,14 @@
 # Windows
 
-* [Windows .NET Core 3.1](https://dotnet.microsoft.com/download) 
+## Setup
+[Download .NET Core 3.1 SDK](https://dotnet.microsoft.com/download) 
 
-<img src="https://user-images.githubusercontent.com/7727291/130494791-25637e52-c88d-44f3-8214-a3ae5ae1be59.png" alt="drawing" width="300"/>
-<img src="https://user-images.githubusercontent.com/7727291/130494842-fbbd7604-3174-40c6-a4ef-5c766621e6a6.png" alt="drawing" width="300"/>
-<img src="https://user-images.githubusercontent.com/7727291/130496715-781cb953-5aef-493b-bf97-5f8caafca887.png" alt="drawing" width="300"/>
-<img src="https://user-images.githubusercontent.com/7727291/130497019-893a6f23-2210-407e-9e17-deeda1dbd3e1.png" alt="drawing" width="300"/>
+* <img src="https://user-images.githubusercontent.com/7727291/130494791-25637e52-c88d-44f3-8214-a3ae5ae1be59.png" alt="drawing" width="300"/>
+* <img src="https://user-images.githubusercontent.com/7727291/130494842-fbbd7604-3174-40c6-a4ef-5c766621e6a6.png" alt="drawing" width="300"/>
+* <img src="https://user-images.githubusercontent.com/7727291/130496715-781cb953-5aef-493b-bf97-5f8caafca887.png" alt="drawing" width="300"/>
+* <img src="https://user-images.githubusercontent.com/7727291/130497019-893a6f23-2210-407e-9e17-deeda1dbd3e1.png" alt="drawing" width="300"/>
 
+These are commands to run in powershell to quickly set up the code
 ```bash
 mkdir mcs-539-projects
 cd mcs-539-projects
@@ -14,9 +16,12 @@ dotnet new console --output P2
 cd P2
 dotnet run
 ```
-<img src="https://user-images.githubusercontent.com/7727291/130497491-4d951d9c-b22e-436e-b170-ab6b71342492.png" alt="drawing" width="700"/>
+* <img src="https://user-images.githubusercontent.com/7727291/130497491-4d951d9c-b22e-436e-b170-ab6b71342492.png" alt="drawing" width="700"/>
 
-### IDE 
+The folder should now look like this:
+* <img src="https://user-images.githubusercontent.com/7727291/130525712-93edfaf2-02c8-4a30-bfaf-bf228836599d.png" alt="drawing" width="300"/>
+
+## IDE (writing your code) 
 
 #### Visual Studio Code
 
