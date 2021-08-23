@@ -10,7 +10,7 @@ The goal is to have you copy your code from `Program.cs` into a Docker container
 <img src="https://user-images.githubusercontent.com/7727291/130502978-717457e3-1792-4a46-afa8-1569136930d1.png" alt="drawing" width="400"/>
 
 ```Bash
-docker pull mcr.microsoft.com/dotnet/sdk:3.1
+docker pull mcr.microsoft.com/dotnet/sdk:3.1-bionic
 ```
 
 ## Using Docker
