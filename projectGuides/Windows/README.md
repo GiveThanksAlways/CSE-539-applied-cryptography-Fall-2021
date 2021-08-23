@@ -23,6 +23,8 @@ The folder should now look like this:
 
 ## IDE (writing your code) 
 
+More IDE's will be included, but for now I will just show steps for vscode since it is widely used. You can use whatever IDE you prefer. 
+
 #### Visual Studio Code
 
 [vscode download](https://code.visualstudio.com/download)
