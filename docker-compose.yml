@@ -1,0 +1,8 @@
+version: "3.9"
+
+services:
+    myprojectcode:
+        build: . # Tells docker to build using the Dockerfile
+        stdin_open: true # docker run -i
+        tty: true        # docker run -t
+    
