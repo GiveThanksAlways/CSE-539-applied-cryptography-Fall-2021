@@ -1,4 +1,5 @@
 # Windows
+This example is for project two (P2) but you can repeat these steps for the other projects by just chaning P2 to the name of the project you are working on.
 
 ## Setup
 [Download .NET Core 3.1 SDK](https://dotnet.microsoft.com/download) 
@@ -6,9 +7,11 @@
 * <img src="https://user-images.githubusercontent.com/7727291/130494791-25637e52-c88d-44f3-8214-a3ae5ae1be59.png" alt="drawing" width="300"/>
 * <img src="https://user-images.githubusercontent.com/7727291/130494842-fbbd7604-3174-40c6-a4ef-5c766621e6a6.png" alt="drawing" width="300"/>
 * <img src="https://user-images.githubusercontent.com/7727291/130496715-781cb953-5aef-493b-bf97-5f8caafca887.png" alt="drawing" width="300"/>
+
+Now we can use the command line (powershell on Windows) to finish setting things up
 * <img src="https://user-images.githubusercontent.com/7727291/130497019-893a6f23-2210-407e-9e17-deeda1dbd3e1.png" alt="drawing" width="300"/>
 
-These are commands to run in powershell to quickly set up the code
+You can now run these commands in powershell to finish setting things up
 ```bash
 mkdir mcs-539-projects
 cd mcs-539-projects
