@@ -13,6 +13,9 @@ The goal is to have you copy your code from `Program.cs` into a Docker container
 docker pull mcr.microsoft.com/dotnet/sdk:3.1
 ```
 
+## Using Docker
+If you copy all of the files in this folder (Docker folder) then the only step you should have to do (fingers crossed. I will update if there are issues) is copy your code from `Program.cs` to the `Program.cs` file in this folder and then run the following two commands.
+
 ```Bash
 docker-compose build
 docker-compose run myprojectcode
