@@ -5,6 +5,11 @@
 
 ### Local install Windows
 
+* [Docker guide](./projectGuides/Docker)
+* [Windows guide](./projectGuides/Windows)
+* [Mac OS guide](./projectGuides/Mac)
+
+
 * [Windows .NET Core 3.1](https://dotnet.microsoft.com/download) 
 
 <img src="https://user-images.githubusercontent.com/7727291/130494791-25637e52-c88d-44f3-8214-a3ae5ae1be59.png" alt="drawing" width="300"/>
@@ -37,7 +42,7 @@ dotnet run
 
 <img src="https://user-images.githubusercontent.com/7727291/130499051-0fe6df63-44e1-4616-9768-8ac4165c33dd.png" alt="drawing" width="800"/>
 
-
+###
 #### Non .NET Core 3.1 development
 You can build the projects using a version newer that 3.1 (or using .NET 5 and up which replaces both .NET core and .NET framework). The only thing you need to do is change the target platform in the `*.csproj` when you submit the project. The `<TargetFramework>` tags should look like the following:
 ```
