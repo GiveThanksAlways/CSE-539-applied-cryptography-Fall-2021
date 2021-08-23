@@ -11,7 +11,7 @@
 
 ## Submitting Your Project
 
-* Make sure your code is located in the folder that is named correctly for that project (example: P2 for project 2) and don't have extra nested folders. 
+* Make sure your code is located in the folder that is named correctly for that project (example: P2 for project 2) and don't have extra nested in other folders. 
     * ![image](https://user-images.githubusercontent.com/7727291/130523217-0b382a36-8f7b-4a3a-a9a9-c3efd5b331f9.png)
 * Zip the project folder and submit it to be graded
     * ![image](https://user-images.githubusercontent.com/7727291/130523286-e4b7eb8e-8724-471e-a1d3-864f529ab287.png)
