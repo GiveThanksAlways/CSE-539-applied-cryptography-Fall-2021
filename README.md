@@ -10,7 +10,7 @@
 * [Docker guide](./projectGuides/Docker)
 
 
-##### Non .NET Core 3.1 development
+## Non .NET Core 3.1 development
 You can build the projects using a version newer that 3.1 (or using .NET 5 and up which replaces both .NET core and .NET framework). The only thing you need to do is change the target platform in the `*.csproj` when you submit the project. The `<TargetFramework>` tags should look like the following:
 ```
 <TargetFramework>netcoreapp3.1</TargetFramework>
