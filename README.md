@@ -3,14 +3,14 @@
 ## Technology Requirements (.NET Core 3.1)
 * Quick start will use .NET Core 3.1 to develop locally. If you are using a different version of .NET, see the note at the end about how to submit your project.
 
-### Quick start guides
+## Quick start guides
 
 * [Windows guide](./projectGuides/Windows)
 * [Mac OS guide](./projectGuides/Mac)
 * [Docker guide](./projectGuides/Docker)
 
 
-#### Non .NET Core 3.1 development
+##### Non .NET Core 3.1 development
 You can build the projects using a version newer that 3.1 (or using .NET 5 and up which replaces both .NET core and .NET framework). The only thing you need to do is change the target platform in the `*.csproj` when you submit the project. The `<TargetFramework>` tags should look like the following:
 ```
 <TargetFramework>netcoreapp3.1</TargetFramework>
