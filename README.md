@@ -5,9 +5,9 @@
 
 ## Quick start guides
 
-* [Windows guide](./projectGuides/Windows)
-* [Mac OS guide](./projectGuides/Mac)
-* [Docker guide](./projectGuides/Docker)
+* [Windows](./projectGuides/Windows)
+* [Mac OS](./projectGuides/Mac)
+* [Docker](./projectGuides/Docker)
 
 
 ## Non .NET Core 3.1 development
