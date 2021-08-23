@@ -23,7 +23,7 @@ The folder should now look like this:
 
 ## IDE (writing your code) 
 
-More IDE's will be included, but for now I will just show steps for vscode since it is widely used. You can use whatever IDE you prefer. 
+More IDE's will be included, but for now I will just show steps for vscode since it is widely used. You can use any IDE that you prefer. 
 
 #### Visual Studio Code
 
