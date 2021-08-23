@@ -9,6 +9,9 @@ The goal is to have you copy your code from `Program.cs` into a Docker container
 
 <img src="https://user-images.githubusercontent.com/7727291/130502978-717457e3-1792-4a46-afa8-1569136930d1.png" alt="drawing" width="400"/>
 
+
+* This docker image matches what the autograder will use to grade each project
+* bionic is Ubuntu 18.04 and this image of Ubuntu 18.04 has the .NET Core 3.1 SDK (Software Development Kit)
 ```Bash
 docker pull mcr.microsoft.com/dotnet/sdk:3.1-bionic
 ```
