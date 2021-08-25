@@ -1,9 +1,9 @@
 # Examples
 
 ## Input
-* [access input from the commandline](./inputExample.cs)
+* [inputExample.cs](./inputExample.cs)
 
-Run this code:
+Run `inputExample.cs`:
 ```bash
 dotnet run "Hello" "123" "AB"
 ```
