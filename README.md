@@ -8,6 +8,7 @@
 * [Windows](./gettingStarted/Windows)
 * [Mac OS](./gettingStarted/Mac)
 * [Docker](./gettingStarted/Docker)
+* [WSL (Windows subsystem for linux)](./gettingStarted/Windows-WSL)
 
 ## Project Guides
 * [P1_1](./projectGuides/P1_1)
