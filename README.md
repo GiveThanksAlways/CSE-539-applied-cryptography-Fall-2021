@@ -3,11 +3,18 @@
 ## Technology Requirements (.NET Core 3.1)
 * Quick start guides will use .NET Core 3.1 to develop locally. If you are using a different version of .NET, see the note at the end about how to submit your project.
 
-## Quick Start Guides
+## Setup Guides
 
-* [Windows](./projectGuides/Windows)
-* [Mac OS](./projectGuides/Mac)
-* [Docker](./projectGuides/Docker)
+* [Windows](./gettingStarted/Windows)
+* [Mac OS](./gettingStarted/Mac)
+* [Docker](./gettingStarted/Docker)
+
+## Project Guides
+* [P1_1](./projectGuides/P1_1)
+* [P1_2](./projectGuides/P1_2)
+* [P2](./projectGuides/P2)
+* [P3](./projectGuides/P3)
+* [P4](./projectGuides/P4)
 
 ## Submitting Your Project
 
