@@ -10,12 +10,15 @@
 * [Docker](./gettingStarted/Docker)
 
 ## Project Guides
-* [input example](./projectGuides/inputExample)
 * [P1_1](./projectGuides/P1_1)
 * [P1_2](./projectGuides/P1_2)
 * [P2](./projectGuides/P2)
 * [P3](./projectGuides/P3)
 * [P4](./projectGuides/P4)
+
+#### Other examples
+* [input example](./projectGuides/inputExample)
+* [.csproj](../gettingStarted/SubmitProjectExample/P2.csproj)
 
 ## Submitting Your Project
 

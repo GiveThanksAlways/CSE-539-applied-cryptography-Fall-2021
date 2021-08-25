@@ -11,4 +11,4 @@ The goal is to help show you an example of input/output for the project and to g
 
 # Other examples
 * [input example](./inputExample)
-* [`.csproj`](../gettingStarted/SubmitProjectExample/P2.csproj)
+* [.csproj](../gettingStarted/SubmitProjectExample/P2.csproj)
