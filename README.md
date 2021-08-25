@@ -11,6 +11,8 @@
 
 ## Submitting Your Project
 
+> Note: You can remove the bin and obj folders in your submission. You can pass the autograder but just submitting the `.csproj` file and the `Program.cs` file.
+
 * Make sure your code is located in the folder that is named correctly for that project (example: P2 for project 2) and make sure it is not nested inside of other folders. 
     * When the autograder unzip's the zipped project folder, it should see the `Program.cs` file and the `.csproj` file. (The bin and obj folders will be there as well) 
     * ![image](https://user-images.githubusercontent.com/7727291/130523217-0b382a36-8f7b-4a3a-a9a9-c3efd5b331f9.png)
