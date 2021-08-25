@@ -16,9 +16,9 @@
 * [P3](./projectGuides/P3)
 * [P4](./projectGuides/P4)
 
-#### Other examples
+##### Other examples
 * [input example](./projectGuides/inputExample)
-* [.csproj](../gettingStarted/SubmitProjectExample/P2.csproj)
+* [.csproj](./gettingStarted/SubmitProjectExample/P2.csproj)
 
 ## Submitting Your Project
 
