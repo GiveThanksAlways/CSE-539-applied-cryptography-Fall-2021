@@ -1,5 +1,5 @@
 # P1_1
 
-The example code will help show a way you can get input from the command line and how to format the output for the autograder.
+This example code is optional. It may help some students get started with the project P1_1
 
 [P1_1 starter code](./Program.cs)
