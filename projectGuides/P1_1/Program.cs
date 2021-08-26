@@ -17,7 +17,7 @@ namespace P1_1
         {
             // get the input from the command line
             string input = "";
-            if (args.Length == 2)
+            if (args.Length == 1)
             {
                 input = args[0]; // Gets the first string after the 'dotnet run' command
             }

@@ -32,11 +32,11 @@ namespace P1_2
             // how to cast a TimeSpan to an int
             // int start = (int)ts.TotalMinutes;
 
-            string secretString;
+            // string secretString = "";
             Random rng = new Random((int)ts.TotalMinutes);
             byte[] key = BitConverter.GetBytes(rng.NextDouble());
-
-            Console.WriteLine(Encrypt(key, secretString));
+        
+            // Console.WriteLine(Encrypt(key, secretString));
 
             // Hint: We are finding the seed that was used to make the key (and we only return the seed once we find the correct key that was used to encrypt the plaintext)
             // The weakness is that C#'s Random((int)ts.TotalMinutes)) function is pseudo-random. Basically this means if we know the seed (int)ts.TotalMinutes then we can build the same random sequence used to make the key
