@@ -6,13 +6,15 @@ namespace P1_1
 {
     class Program
     {
+        // TODO: put your code in the solve function and have it return the solution in the form of a byte array
         public static byte[] Solve(byte[] inputBytes, byte[] bmpBytes)
         {
             // Put your code in here
-            byte[] exampleByteArray = new byte[bmpBytes.Length];
+            byte[] exampleByteArray = new byte[bmpBytes.Length]; // just a placeholder so that the code works from scatch without errors
             return exampleByteArray;
         }
 
+        // This function will help us get the input from the command line
         public static string getInputFromCommandLine(string[] args)
         {
             // get the input from the command line
@@ -28,6 +30,7 @@ namespace P1_1
             return input;
         }
 
+        // The Main function will run our program
         static void Main(string[] args)
         {
             // below is the example command of how to run your program
@@ -62,12 +65,11 @@ namespace P1_1
 
         
             // TODO: Convert input string to an array of bytes (inputBytes)
-            // This is an example of how to convert a string such as "F8" to a byte. (base 16 because F8 is Hexadecimal)
-            Convert.ToByte("F8", 16);
+            Convert.ToByte("F8", 16); // This is an example of how to convert a string such as "F8" to a byte. (base 16 because F8 is Hexadecimal)
 
-            byte[] inputBytes = new byte[10]; // this line is just a placeholder. You will need to start with the input string and convert the string to a byte array 
-            // run the code to find the solution
-            byte[] solution = Solve(inputBytes, bmpBytes); // you can put your code in the solve function
+            byte[] inputBytes = new byte[10]; // this line is just a placeholder. You will need to start with the input string and convert the string to a byte array (in this example that byte array is named inputBytes)
+            // TODO: put your code in the solve function and have it return the solution in the form of a byte array 
+            byte[] solution = Solve(inputBytes, bmpBytes); 
 
             // Print the solution for the autograder to see
             Console.WriteLine(BitConverter.ToString(solution).Replace("-", " ")); // This line prints the output in the correct format for the autograder

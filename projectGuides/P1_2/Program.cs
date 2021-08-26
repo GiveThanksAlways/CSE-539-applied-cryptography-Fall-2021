@@ -6,26 +6,28 @@ namespace P1_2
 {
     class Program
     {
-        // This function reads the inputs from the command line
+        // This function will get the plaintext and the ciphertext from the command line
         public static Tuple<string,string> getInputFromCommandLine(string[] args)
         {
             // initialize variables
             string input_1="", input_2="";
-            // args is an array of strings that hold commandline inputs after the "dotnet run" command
-            // inputs are seperated by spaces. This example will assume 3 inputs are provided
-            // Need to check that 3 inputs were give in this example or else we will get an out of bound error on the array
-            if(args.Length == 2){
+            // args is an array of strings that hold commandline inputs after the "dotnet run" command (inputs are seperated by spaces.)
+            // Need to check that 2 inputs were give in this example or else we will get an out of bound error on the array
+            if(args.Length == 2)
+            {
                 input_1 = args[0];
                 input_2 = args[1];
-            }else{
+            }else
+            {
                 Console.WriteLine("Either not enough inputs or too many inputs");
             }
             return Tuple.Create(input_1, input_2);
         }
 
-        // You can put your solution inside of this solve function
+        // TODO: put your solution code in the solve function and have it return the seed. In the example, the seed returned was 26564295
         private static double Solve(string plaintext, string ciphertext)
         {
+            // Feel free to remove/ keep any of the code in this function. Some of the code is from the instructions.
             // Helpful code from the instructions:
             DateTime dt = DateTime.Now;
             TimeSpan ts = dt.Subtract(new DateTime(1970, 1, 1));
@@ -58,6 +60,7 @@ namespace P1_2
             return Convert.ToBase64String(ms.GetBuffer(), 0, (int)ms.Length);
         }
 
+        // The Main function will run our program
         static void Main(string[] args)
         {
             // string plaintext = "Hello World";
@@ -70,7 +73,7 @@ namespace P1_2
             string plaintext = commandlineInputs.Item1;
             string ciphertext = commandlineInputs.Item2;
 
-            // TODO: Code the solution
+            // TODO: put your solution code in the solve function and have it return the seed. In the example, the seed returned was 26564295
             var solution = Solve(plaintext, ciphertext);
 
             // Output the solution to the autograder
