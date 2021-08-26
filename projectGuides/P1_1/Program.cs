@@ -17,7 +17,7 @@ namespace P1_1
         {
             // get the input from the command line
             string input = "";
-            if (args.Length == 1)
+            if (args.Length == 2)
             {
                 input = args[0]; // Gets the first string after the 'dotnet run' command
             }
@@ -65,6 +65,7 @@ namespace P1_1
             // This is an example of how to convert a string such as "F8" to a byte. (base 16 because F8 is Hexadecimal)
             Convert.ToByte("F8", 16);
 
+            byte[] inputBytes = new byte[10]; // this line is just a placeholder. You will need to start with the input string and convert the string to a byte array 
             // run the code to find the solution
             byte[] solution = Solve(inputBytes, bmpBytes); // you can put your code in the solve function
 
