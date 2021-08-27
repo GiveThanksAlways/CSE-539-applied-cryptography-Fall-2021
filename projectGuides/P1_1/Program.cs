@@ -10,6 +10,9 @@ namespace P1_1
         public static byte[] Solve(byte[] inputBytes, byte[] bmpBytes)
         {
             // Put your code in here
+            // bitwise XOR function 0xFF ^ 0xAB
+            // Look up BitArray in C# made from byte[]
+            BitArray inputbits = new BitArray(inputBytes);
             byte[] exampleByteArray = new byte[bmpBytes.Length]; // just a placeholder so that the code works from scatch without errors
             return exampleByteArray;
         }
@@ -37,6 +40,11 @@ namespace P1_1
             // dotnet run "B1 FF FF CC 98 80 09 EA 04 48 7E C9"
 
             // bmpBytes is defined in the instructions (I put it here to save you time)
+            // Blue pixel = 0xFF,0x00,0x00
+            // Red pixel = 0x00,0x00,0xFF
+            // White pixel = 0xFF,0xFF,0xFF
+            // Black pixel = 0x00,0x00,0x00
+            // (Blue Green Red)
             byte[] bmpBytes = new byte[]
             {
                 0x42,0x4D,0x4C,0x00,0x00,0x00,0x00,0x00,
