@@ -10,6 +10,10 @@ namespace P3
 
         static void Main(string[] args)
         {
+            // Make sure you are familiar with the System.Numerics.BigInteger class and how to use some of the functions it has (Parse, Pow, ModPow, etc.)
+            
+            // optional hint: for encryptiong/ decryption with AES, lookup the microsoft documentation on Aes (System.Security.Cryptography.Aes)
+            
             /*
             dotnet run 
             "A2 2D 93 61 7F DC 0D 8E C6 3E A7 74 51 1B 24 B2" 

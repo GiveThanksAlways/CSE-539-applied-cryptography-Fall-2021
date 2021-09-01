@@ -36,6 +36,8 @@ namespace P2
             // https://docs.microsoft.com/en-us/dotnet/api/system.security.cryptography.md5?view=netcore-3.1
             // hint: what does Create() do?
 
+            // optional hint: review converting a string into a byte array (byte[]) and the reverse, converting a byte array (byte[]) into a string BitConverter.ToString(exampleByteArray).Replace("-", " ");
+
             // This code will convert a string to a byte array
             string example = "Edward Snowden";
             byte[] exampleByteArray = Encoding.UTF8.GetBytes(example);
