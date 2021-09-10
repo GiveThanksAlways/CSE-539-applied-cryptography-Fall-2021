@@ -1,5 +1,8 @@
 # CSE 539 Applied Cryptography - Fall 2021
 
+## Midterm study guide
+* [midterm optional study guide](./studyGuides/midtermStudyGuide.md)
+
 ## Technology Requirements (.NET Core 3.1)
 * Quick start guides will use .NET Core 3.1 to develop locally. If you are using a different version of .NET, see the note at the end about how to submit your project.
 
